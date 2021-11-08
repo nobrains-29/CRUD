@@ -1,0 +1,18 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "Simple demonstration of CRUD operations.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node mongodb.js",
+    "dev": "nodemon mongodb.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.1.3",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.14"
+  }
+}
